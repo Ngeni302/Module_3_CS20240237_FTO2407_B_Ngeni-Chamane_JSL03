@@ -1,9 +1,9 @@
-function cookSteak(steakWeight, desiredDoneness) {
-    const grillTemperatureCelsius = 204; 
-    const seasoning = 'Salt and Pepper';
+function cookSteak(steakWeight, desiredDoneness) { //define function cookSteak
+    const grillTemperatureCelsius = 204;           // temperature for the grill
+    const seasoning = 'Salt and Pepper';          //seasoning using salt and pepper
   
     // Define the cooking process
-    const cookingProcess = [
+    const cookingProcess = [                      //declare the process for cooking
       { action: 'Preheat grill', temperature: grillTemperatureCelsius },
       { action: 'Season steak', seasoning },
       { action: 'Cook steak until desired doneness', desiredDoneness },
